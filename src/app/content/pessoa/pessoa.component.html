@@ -1,0 +1,179 @@
+<ng-container *ngIf="isLoading">
+  <mat-progress-bar
+    mode="indeterminate"
+    value="20"
+    bufferValue="100"
+  ></mat-progress-bar>
+</ng-container>
+<div class="container">
+  <div>Pessoa x</div>
+
+  <button (click)="showToaster()">
+    Show Toaster
+  </button>
+
+  <!-- <div class="card list-car">
+      <h5 class="card-header">Lista de carros</h5>
+      <div class="card-body">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Modelo</th>
+              <th scope="col">Cor</th>
+              <th scope="col">Preço</th>
+              <th scope="col">Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let pessoa of cars">
+              <td>{{ pessoa.codigo_pessoa }}</td>
+              <td>{{ pessoa.model }}</td>
+              <td>{{ pessoa.color }}</td>
+              <td>{{ pessoa.price | currency }}</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-warning btn-sm"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  (click)="editCar(car)"
+                >
+                  Editar
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-danger btn-sm ml-1"
+                  (click)="deleteCar(car)"
+                >
+                  Deletar
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div> -->
+
+  <form [formGroup]="formTest" class="form-horizontal">
+    <div class="form-container">
+      <ng-container class="col-3">
+        <mat-form-field>
+          <mat-label> CPF </mat-label>
+          <input matInput formControlName="cpf_cnpj" placeholder="CPF" />
+          <mat-error *ngIf="cpf_cnpj.invalid">O CPF é obrigatório</mat-error>
+        </mat-form-field>
+      </ng-container>
+
+      <mat-form-field>
+        <mat-select formControlName="codigo_sexo" placeholder="Gênero">
+          <mat-option value="1">Masculino</mat-option>
+          <mat-option value="2">Feminino</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-checkbox class="col-3" formControlName="autorizacao_bacen"
+        >Autorizacao Bacen</mat-checkbox
+      >
+      <mat-form-field>
+        <mat-select formControlName="codigo" placeholder="Tipo de Pessoa">
+          <mat-option value="F">Física</mat-option>
+          <mat-option value="J">Jurídica</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="col-3">
+        <textarea
+          matInput
+          formControlName="nome_pessoa"
+          placeholder="Textarea"
+        ></textarea>
+      </mat-form-field>
+
+      <mat-form-field class="col-3">
+        <input
+          formControlName="data_referencia_menda_mensal"
+          matInput
+          placeholder="Valor"
+        />
+      </mat-form-field>
+      <div class="card-footer">
+        <div class="row align-items-center">
+          <div class="col-sm-6 col-xl-3">
+            <button
+              (click)="updateCar()"
+              class="btn btn-block btn-outline-success"
+            >
+              <i class="fa fa-check-circle"></i> Salvar
+            </button>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <button (click)="cancel()" class="btn btn-block btn-danger">
+              <i class="fa fa-ban"></i> Cancelar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="usuario">Model</label>
+            <input
+              type="text"
+              formControlName="model"
+              class="form-control"
+              placeholder="Model"
+              required
+            />
+
+            <input
+              type="text"
+              formControlName="color"
+              class="form-control"
+              placeholder="Color"
+              required
+            />
+
+            <input
+              type="text"
+              formControlName="price"
+              class="form-control"
+              placeholder="Price"
+              required
+            />
+            <input
+              type="text"
+              formControlName="cpf_cnpj"
+              class="form-control"
+              placeholder="Price"
+              required
+            />
+            <div class="invalid-feedback">
+              Campo obrigatório!
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="row align-items-center">
+              <div class="col-sm-6 col-xl-3">
+                <button
+                  (click)="updateCar()"
+                  class="btn btn-block btn-outline-success"
+                >
+                  <i class="fa fa-check-circle"></i> Salvar
+                </button>
+              </div>
+              <div class="col-sm-6 col-xl-3">
+                <button (click)="cancel()" class="btn btn-block btn-danger">
+                  <i class="fa fa-ban"></i> Cancelar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+      </div> -->
+  </form>
+</div>

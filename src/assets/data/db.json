@@ -1,0 +1,192 @@
+{
+  "pessoa": {
+    "pessoa": {
+      "quantidade_registros": "1",
+      "codigo_pessoa": 769295,
+      "cpf_cnpj": "231123",
+      "nome_pessoa": "FABRICIO BATISTA DOS SANTOS",
+      "email": "financeiro@graficaroosevelt.com.br",
+      "nome_pessoa_contrato": "FABRICIO BATISTA DOS SANTOS",
+      "codigo_situacao_cnpj_cpf": null,
+      "nome_pesquisa": "FABRICIO BATISTA DOS SANTOS",
+      "autorizacao_bacen": true,
+      "data_ficha_cadastral": null,
+      "flg_exis_autz_sef": null,
+      "nome_cartao_bdmg": null,
+      "numero_processo_altera_grupo": 374661,
+      "justifica_altera_grupo": "Tem comando em CRIATIVA SERVICOS DE IMPRESSAO DIGITAL LTDA -",
+      "situacao_pessoa": {
+        "codigo": null,
+        "descricao": null
+      },
+      "grupo_empresarial": {
+        "codigo": 34791,
+        "descricao": "Grupo GRAFICA ROOSEVELT LTDA -EPP"
+      },
+      "tipo_pessoa": {
+        "codigo": "F",
+        "descricao": "Física"
+      },
+      "data_referencia_menda_mensal": "0",
+      "codigo_sexo": "1",
+      "codigo_conjuge": "7692948"
+    },
+    "pessoa_fisica": {
+      "quantidade_registros": "1",
+      "codigo_pessoa": "769294x",
+      "nome_pessoa": "FABRICIO BATISTA DOS SANTOS",
+      "numero_identidade": "7279958",
+      "data_nascimento": "1975-08-02T00:00:00.000Z",
+      "codigo_conjuge": "769294xt",
+      "menor_emancipado": null,
+      "valor_bem_ir": 0,
+      "ano_valor_bem_IR": null,
+      "valor_renda_mensal": 98000,
+      "data_referencia_menda_mensal": null,
+      "pessoa_empregada": null,
+      "pessoa_politicamente_exposta": true,
+      "valor_imovel_residencial": 0,
+      "valor_dividas_no_IR": null,
+      "data_valor_divida_no_IR": null,
+      "data_informacao_patrimonio": "2019-12-05T21:21:52.677Z",
+      "data_patrimonio_comprovado": "2018-06-15T13:56:33.373Z",
+      "valor_patromonio_comprovado": 132898.27,
+      "possui_responsavel_legal": false,
+      "profissao": {
+        "codigo": "209",
+        "descricao": "EMPRESÁRIO(A)"
+      },
+      "nacionalidade": {
+        "codigo": "001",
+        "descricao": "BRASILEIRO(A)"
+      },
+      "estado_civil": {
+        "codigo": "2",
+        "descricao": "CASADO(A)"
+      },
+      "regime_casamento": {
+        "codigo": 2,
+        "descricao": "COMUNHÃO PARCIAL DE BENS"
+      },
+      "etnia": {
+        "codigo": null,
+        "descricao": null
+      },
+      "grau_instrucao": {
+        "codigo": 9,
+        "descricao": "Pós-graduação completa"
+      },
+      "sexo": {
+        "codigo": "M",
+        "descricao": "Masculino"
+      },
+      "documento_comprova_patrimonio": {
+        "codigo": true,
+        "descricao": "Via IRPJ"
+      },
+      "responsavel_legal": {
+        "quantidade_registros": "0",
+        "responsavel_legal": {
+          "erro": "Nenhum retorno",
+          "descricao": "Nenhum resultado encontrado"
+        }
+      }
+    },
+    "renda_patrimonio": {
+      "quantidade_registros": "1",
+      "codigo_pessoa": 769295,
+      "data_informacao_patrimonio": "2019-12-05T21:21:52.677",
+      "data_patrimonio_comprovado": "2018-06-15T13:56:33.373",
+      "valor_patromonio_comprovado": 132898.27,
+      "tipo_documento_comprova_patrimonio": "Via IRPF",
+      "valor_imovel_residencial": 0,
+      "valor_dividas_no_IR": null,
+      "data_valor_divida_no_IR": null,
+      "valor_bem_ir": 0,
+      "ano_valor_bem_IR": null,
+      "valor_renda_mensal": 98000,
+      "data_referencia_menda_mensal": null
+    },
+    "conjuge": {
+      "quantidade_registros": "0",
+      "pessoa_conjuge": {
+        "erro": "Nenhum retorno",
+        "descricao": "Nenhum resultado encontrado"
+      }
+    },
+    "pessoa_juridica": {
+      "quantidade_registros": "0",
+      "pessoa_juridica": {
+        "erro": "Nenhum retorno",
+        "descricao": "Nenhum resultado encontrado"
+      }
+    },
+    "contatos": {
+      "quantidade_registros": "0",
+      "pessoa_contato": {
+        "erro": "Nenhum retorno",
+        "descricao": "Nenhum resultado encontrado"
+      }
+    },
+    "enderecos": {
+      "quantidade_registros": "1",
+      "pessoa_endereco": [
+        {
+          "codigo_pessoa": 769295,
+          "numero_sequencia_endereco": "10x",
+          "endereco_completo": null,
+          "nome_bairro": "Shopping Park",
+          "nome_cidade": "Uberlândia",
+          "pais": "exterior",
+          "numero_cep": "38425385",
+          "numero_telefone": "3432153383",
+          "numero_ramal": null,
+          "numero_fax": null,
+          "data_cadastro": "2019-12-10T16:20:58.630Z",
+          "numero_celular": "34321533839",
+          "endereco_auditado": true,
+          "nome_logradouro": "Luiz Fuad Abib",
+          "numero_logradouro": "105",
+          "complemento": "apto 304",
+          "tipo_endereco": {
+            "codigo": "2",
+            "descricao": "RESIDENCIAL"
+          },
+          "unidade_federativa": {
+            "codigo": "MG",
+            "descricao": "MINAS GERAIS"
+          },
+          "municipio": {
+            "codigo": 702,
+            "descricao": "UBERLANDIA"
+          },
+          "tipo_logradouro_bndes": {
+            "codigo": null,
+            "descricao": null
+          }
+        }
+      ]
+    },
+    "cliente": {
+      "quantidade_registros": "0",
+      "pessoa_cliente": {
+        "erro": "Nenhum retorno",
+        "descricao": "Nenhum resultado encontrado"
+      }
+    },
+    "faturamento": {
+      "quantidade_registros": "0",
+      "faturamento_cliente": {
+        "erro": "Nenhum retorno",
+        "descricao": "Nenhum resultado encontrado"
+      }
+    },
+    "conta_bancaria": {
+      "quantidade_registros": "0",
+      "pessoa_conta_bancaria": {
+        "erro": "Nenhum retorno",
+        "descricao": "Nenhum resultado encontrado"
+      }
+    }
+  }
+}

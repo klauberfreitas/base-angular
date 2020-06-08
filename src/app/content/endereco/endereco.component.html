@@ -1,0 +1,35 @@
+<div class="container">
+  <ng-container *ngFor="let dados of endereco">
+    {{ dado.codigo_pessoa }}
+  </ng-container>
+
+  <form [formGroup]="formTest" class="form-horizontal">
+    <div class="form-container">
+      <mat-form-field>
+        <input
+          matInput
+          formControlName="numero_sequencia_endereco"
+          placeholder="numero_sequencia_endereco"
+        />
+      </mat-form-field>
+
+      <div class="card-footer">
+        <div class="row align-items-center">
+          <div class="col-sm-6 col-xl-3">
+            <button
+              (click)="updateCar()"
+              class="btn btn-block btn-outline-success"
+            >
+              <i class="fa fa-check-circle"></i> Salvar
+            </button>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <button (click)="cancel()" class="btn btn-block btn-danger">
+              <i class="fa fa-ban"></i> Cancelar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
